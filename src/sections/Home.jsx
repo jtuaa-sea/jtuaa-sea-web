@@ -17,9 +17,10 @@ function Home() {
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           backgroundImage: 'url(/images/seattle-skyline.jpg)',
-          minHeight: '600px',
+          minHeight: { xs: 'auto', sm: '400px', md: '600px' },
           display: 'flex',
-          alignItems: 'center'
+          alignItems: 'center',
+          py: { xs: 4, sm: 6 }
         }}
       >
         <Box
