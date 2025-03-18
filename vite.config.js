@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+  base: '/jtuaa-sea-web/',
   server: {
     port: 3000,
     host: true
