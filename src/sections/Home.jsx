@@ -16,7 +16,7 @@ function Home() {
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
-          backgroundImage: 'url(/images/seattle-skyline.jpg)',
+          backgroundImage: 'url(/seattle-cover.png)',
           minHeight: { xs: 'auto', sm: '400px', md: '600px' },
           display: 'flex',
           alignItems: 'center',
