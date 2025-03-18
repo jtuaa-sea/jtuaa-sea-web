@@ -32,7 +32,7 @@ function Footer() {
               {t('nav.contact')}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Email: info@jtuaaseattle.org
+              Email: jtuseattle@gmail.com
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4}>
