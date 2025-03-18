@@ -1,7 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Box, Container, Typography, Paper, Grid, Button } from '@mui/material'
-import { Link as RouterLink } from 'react-router-dom'
 
 function Home() {
   const { t } = useTranslation()
@@ -47,8 +46,7 @@ function Home() {
             {t('home.description')}
           </Typography>
           <Button
-            component={RouterLink}
-            to="/membership"
+            onClick={() => document.getElementById('membership').scrollIntoView({ behavior: 'smooth' })}
             variant="contained"
             size="large"
             sx={{ mt: 2 }}
@@ -68,8 +66,7 @@ function Home() {
               Stay tuned for our exciting upcoming events and activities.
             </Typography>
             <Button
-              component={RouterLink}
-              to="/events"
+              onClick={() => document.getElementById('events').scrollIntoView({ behavior: 'smooth' })}
               variant="outlined"
               color="primary"
             >
@@ -84,8 +81,7 @@ function Home() {
               {t('about.description')}
             </Typography>
             <Button
-              component={RouterLink}
-              to="/about"
+              onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })}
               variant="outlined"
               color="primary"
             >
@@ -100,8 +96,7 @@ function Home() {
               Connect with us and stay updated with our latest news and events.
             </Typography>
             <Button
-              component={RouterLink}
-              to="/contact"
+              onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
               variant="outlined"
               color="primary"
             >

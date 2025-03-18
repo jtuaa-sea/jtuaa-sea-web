@@ -1,30 +1,38 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
-import { Box, Container } from '@mui/material'
+import { Box } from '@mui/material'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import Home from './pages/Home'
-import About from './pages/About'
-import Events from './pages/Events'
-import Membership from './pages/Membership'
-import Gallery from './pages/Gallery'
-import Contact from './pages/Contact'
-
+import Home from './sections/Home'
+import About from './sections/About'
+import Events from './sections/Events'
+import Membership from './sections/Membership'
+import Gallery from './sections/Gallery'
+import Contact from './sections/Contact'
 
 function App() {
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <Navbar />
-      <Container component="main" sx={{ flexGrow: 1, py: 4 }}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/membership" element={<Membership />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Container>
+      <Box component="main" sx={{ flexGrow: 1 }}>
+        <Box id="home" sx={{ minHeight: '100vh' }}>
+          <Home />
+        </Box>
+        <Box id="about" sx={{ minHeight: '100vh', py: 4 }}>
+          <About />
+        </Box>
+        <Box id="events" sx={{ minHeight: '100vh', py: 4 }}>
+          <Events />
+        </Box>
+        <Box id="membership" sx={{ minHeight: '100vh', py: 4 }}>
+          <Membership />
+        </Box>
+        <Box id="gallery" sx={{ minHeight: '100vh', py: 4 }}>
+          <Gallery />
+        </Box>
+        <Box id="contact" sx={{ minHeight: '100vh', py: 4 }}>
+          <Contact />
+        </Box>
+      </Box>
       <Footer />
     </Box>
   )

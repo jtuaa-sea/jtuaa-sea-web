@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Link as RouterLink } from 'react-router-dom'
 import {
   AppBar,
   Toolbar,
@@ -15,7 +14,6 @@ import {
 } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 import LanguageIcon from '@mui/icons-material/Language'
-// Import the logo directly
 
 
 function Navbar() {
@@ -36,20 +34,27 @@ function Navbar() {
   }
 
   const navItems = [
-    { path: '/', label: t('nav.home') },
-    { path: '/about', label: t('nav.about') },
-    { path: '/events', label: t('nav.events') },
-    { path: '/membership', label: t('nav.membership') },
-    { path: '/gallery', label: t('nav.gallery') },
-    { path: '/contact', label: t('nav.contact') }
+    { id: 'home', label: t('nav.home') },
+    { id: 'about', label: t('nav.about') },
+    { id: 'events', label: t('nav.events') },
+    { id: 'membership', label: t('nav.membership') },
+    { id: 'gallery', label: t('nav.gallery') },
+    { id: 'contact', label: t('nav.contact') }
   ]
+
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id)
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+      handleMobileMenuClose()
+    }
+  }
 
   return (
     <AppBar position="sticky">
       <Toolbar>
         <Box
-          component={RouterLink}
-          to="/"
+          onClick={() => scrollToSection('home')}
           sx={{
             display: 'flex',
             alignItems: 'center',
@@ -85,10 +90,8 @@ function Navbar() {
             >
               {navItems.map((item) => (
                 <MenuItem
-                  key={item.path}
-                  component={RouterLink}
-                  to={item.path}
-                  onClick={handleMobileMenuClose}
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
                 >
                   {item.label}
                 </MenuItem>
@@ -99,9 +102,8 @@ function Navbar() {
           <Box sx={{ flexGrow: 1 }}>
             {navItems.map((item) => (
               <Button
-                key={item.path}
-                component={RouterLink}
-                to={item.path}
+                key={item.id}
+                onClick={() => scrollToSection(item.id)}
                 color="inherit"
                 sx={{ mx: 1 }}
               >

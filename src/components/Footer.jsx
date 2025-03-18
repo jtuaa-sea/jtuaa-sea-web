@@ -1,7 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Box, Container, Typography, Link, Grid } from '@mui/material'
-import { Link as RouterLink } from 'react-router-dom'
 
 function Footer() {
   const { t } = useTranslation()
@@ -40,10 +39,11 @@ function Footer() {
               {t('nav.membership')}
             </Typography>
             <Link
-              component={RouterLink}
-              to="/membership"
+              component="button"
+              onClick={() => document.getElementById('membership').scrollIntoView({ behavior: 'smooth' })}
               color="inherit"
               underline="hover"
+              sx={{ border: 'none', background: 'none', cursor: 'pointer' }}
             >
               {t('membership.join')}
             </Link>
