@@ -34,20 +34,7 @@ function Footer() {
               Email: jtuseattle@gmail.com
             </Typography>
           </Grid>
-          <Grid item xs={12} sm={4}>
-            <Typography variant="h6" color="text.primary" gutterBottom>
-              {t('nav.membership')}
-            </Typography>
-            <Link
-              component="button"
-              onClick={() => document.getElementById('membership').scrollIntoView({ behavior: 'smooth' })}
-              color="inherit"
-              underline="hover"
-              sx={{ border: 'none', background: 'none', cursor: 'pointer' }}
-            >
-              {t('membership.join')}
-            </Link>
-          </Grid>
+
         </Grid>
         <Box mt={3}>
           <Typography variant="body2" color="text.secondary" align="center">

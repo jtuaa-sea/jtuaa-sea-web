@@ -11,25 +11,22 @@ import Contact from './sections/Contact'
 
 function App() {
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '60vh' }}>
       <Navbar />
       <Box component="main" sx={{ flexGrow: 1 }}>
-        <Box id="home" sx={{ minHeight: '100vh' }}>
+        <Box id="home" sx={{ height: '80vh' }}>
           <Home />
         </Box>
-        <Box id="about" sx={{ minHeight: '100vh', py: 4 }}>
+        <Box id="about" sx={{ height: '60vh', py: 4 }}>
           <About />
         </Box>
-        <Box id="events" sx={{ minHeight: '100vh', py: 4 }}>
+        <Box id="events" sx={{ height: '60vh', py: 4 }}>
           <Events />
         </Box>
-        <Box id="membership" sx={{ minHeight: '100vh', py: 4 }}>
-          <Membership />
-        </Box>
-        <Box id="gallery" sx={{ minHeight: '100vh', py: 4 }}>
+        <Box id="gallery" sx={{ height: '60vh', py: 4 }}>
           <Gallery />
         </Box>
-        <Box id="contact" sx={{ minHeight: '100vh', py: 4 }}>
+        <Box id="contact" sx={{ height: '60vh', py: 4 }}>
           <Contact />
         </Box>
       </Box>
