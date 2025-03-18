@@ -9,16 +9,20 @@ function Events() {
     {
       id: 1,
       title: 'Spring Networking Mixer',
-      date: 'March 15, 2024',
-      location: 'Seattle Downtown',
-      description: 'Join us for an evening of networking with fellow alumni.'
+      date: 'March X, 2025',
+      location: 'Location',
+      description: 'Join us for an evening of networking with fellow alumni.',
+      registerable: false,
+      registerLink: 'https://www.google.com'
     },
     {
       id: 2,
       title: 'Tech Industry Panel',
-      date: 'April 5, 2024',
-      location: 'Virtual Event',
-      description: 'Industry leaders share insights on latest tech trends.'
+      date: 'April X, 2025',
+      location: 'Location',
+      description: 'Join us for an evening of networking with fellow alumni.',
+      registerable: false,
+      registerLink: ''
     }
   ]
 
@@ -45,7 +49,7 @@ function Events() {
         {t('nav.events')}
       </Typography>
 
-      {/* <Paper sx={{ p: 4, mb: 4 }}>
+      <Paper sx={{ p: 4, mb: 4 }}>
         <Typography variant="h4" gutterBottom>
           {t('events.upcoming')}
         </Typography>
@@ -63,7 +67,15 @@ function Events() {
                   <Typography variant="body1" sx={{ mt: 2 }}>
                     {event.description}
                   </Typography>
-                  <Button variant="contained" color="primary" sx={{ mt: 2 }}>
+                  <Button 
+                    variant="contained" 
+                    color="primary" 
+                    sx={{ mt: 2 }}
+                    disabled={!event.registerable}
+                    href={event.registerLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Register
                   </Button>
                 </CardContent>
@@ -71,7 +83,7 @@ function Events() {
             </Grid>
           ))}
         </Grid>
-      </Paper> */}
+      </Paper>
 
       <Paper sx={{ p: 4 }}>
         <Typography variant="h4" gutterBottom>

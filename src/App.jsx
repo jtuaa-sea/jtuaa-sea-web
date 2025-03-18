@@ -10,22 +10,22 @@ import Contact from './sections/Contact'
 
 function App() {
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '60vh' }}>
+    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <Navbar />
       <Box component="main" sx={{ flexGrow: 1 }}>
-        <Box id="home" sx={{ height: { xs: 'auto', sm: '80vh' } }}>
+        <Box id="home" sx={{ height: { xs: 'auto', sm: '100vh' }, mb: 4 }}>
           <Home />
         </Box>
-        <Box id="about" sx={{ minHeight: { xs: 'auto', sm: '60vh' }, py: 4 }}>
+        <Box id="about" sx={{ minHeight: { xs: 'auto', sm: '100vh' }, py: 6, mb: 4 }}>
           <About />
         </Box>
-        <Box id="events" sx={{ minHeight: { xs: 'auto', sm: '60vh' }, py: 4 }}>
+        <Box id="events" sx={{ minHeight: { xs: 'auto', sm: '100vh' }, py: 6, mb: 4 }}>
           <Events />
         </Box>
-        <Box id="gallery" sx={{ minHeight: { xs: 'auto', sm: '60vh' }, py: 4 }}>
+        <Box id="gallery" sx={{ minHeight: { xs: 'auto', sm: '100vh' }, py: 6, mb: 4 }}>
           <Gallery />
         </Box>
-        <Box id="contact" sx={{ minHeight: { xs: 'auto', sm: '60vh' }, py: 4 }}>
+        <Box id="contact" sx={{ minHeight: { xs: 'auto', sm: '100vh' }, py: 6 }}>
           <Contact />
         </Box>
       </Box>
