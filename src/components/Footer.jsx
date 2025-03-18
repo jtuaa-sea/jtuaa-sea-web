@@ -17,16 +17,25 @@ function Footer() {
       }}
     >
       <Container maxWidth="lg">
-        <Grid container spacing={3} justifyContent="space-between">
-          <Grid item xs={12} sm={4}>
+        <Grid container spacing={3} justifyContent="space-between" alignItems="left">
+          <Grid item xs={12} sm={4} sx={{ textAlign: 'left' }}>
+            <Box sx={{ display: 'flex', justifyContent: 'left', mb: 2 }}>
+              <img 
+                src={import.meta.env.BASE_URL + "logo.JPG"} 
+                alt="JTUAA Seattle Logo" 
+                style={{ height: 150, objectFit: 'contain' }} 
+              />
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={4} sx={{ textAlign: { xs: 'left', sm: 'left' } }}>
             <Typography variant="h6" color="text.primary" gutterBottom>
-              JTUAA Seattle
+              JTUAA & CTU SEA
             </Typography>
             <Typography variant="body2" color="text.secondary">
               {t('about.description')}
             </Typography>
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={4} sx={{ textAlign: { xs: 'left', sm: 'left' } }}>
             <Typography variant="h6" color="text.primary" gutterBottom>
               {t('nav.contact')}
             </Typography>
@@ -34,11 +43,10 @@ function Footer() {
               Email: jtuseattle@gmail.com
             </Typography>
           </Grid>
-
         </Grid>
         <Box mt={3}>
           <Typography variant="body2" color="text.secondary" align="center">
-            © {currentYear} JTUAA Seattle. All rights reserved.
+            © {currentYear} JTUAA & CTU Seattle. All rights reserved.
           </Typography>
         </Box>
       </Container>

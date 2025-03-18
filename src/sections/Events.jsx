@@ -45,7 +45,7 @@ function Events() {
         {t('nav.events')}
       </Typography>
 
-      <Paper sx={{ p: 4, mb: 4 }}>
+      {/* <Paper sx={{ p: 4, mb: 4 }}>
         <Typography variant="h4" gutterBottom>
           {t('events.upcoming')}
         </Typography>
@@ -71,7 +71,7 @@ function Events() {
             </Grid>
           ))}
         </Grid>
-      </Paper>
+      </Paper> */}
 
       <Paper sx={{ p: 4 }}>
         <Typography variant="h4" gutterBottom>

@@ -46,12 +46,12 @@ function Home() {
             {t('home.description')}
           </Typography>
           <Button
-            onClick={() => document.getElementById('membership').scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })}
             variant="contained"
             size="large"
             sx={{ mt: 2 }}
           >
-            {t('membership.join')}
+            {t('nav.about')}
           </Button>
         </Container>
       </Paper>
