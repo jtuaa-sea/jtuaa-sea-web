@@ -15,6 +15,8 @@ import {
 } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 import LanguageIcon from '@mui/icons-material/Language'
+// Import the logo directly
+
 
 function Navbar() {
   const { t, i18n } = useTranslation()
@@ -45,19 +47,27 @@ function Navbar() {
   return (
     <AppBar position="sticky">
       <Toolbar>
-        <Typography
-          variant="h6"
+        <Box
           component={RouterLink}
           to="/"
           sx={{
-            color: 'white',
+            display: 'flex',
+            alignItems: 'center',
             textDecoration: 'none',
             flexGrow: { xs: 1, md: 0 },
             mr: { md: 4 }
           }}
         >
-          JTUAA Seattle
-        </Typography>
+          {/* Update the logo path to ensure it's correctly resolved */}
+          <img 
+            src={import.meta.env.BASE_URL + "logo.JPG"} 
+            alt="JTUAA Seattle Logo" 
+            style={{ height: 40, objectFit: 'contain' }} 
+          />
+          <Typography variant="h6" sx={{ ml: 1 }}>
+            JTUAA Seattle
+          </Typography>
+        </Box>
 
         {isMobile ? (
           <>
