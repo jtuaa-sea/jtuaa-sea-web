@@ -37,7 +37,6 @@ function Navbar() {
     { id: 'home', label: t('nav.home') },
     { id: 'about', label: t('nav.about') },
     { id: 'events', label: t('nav.events') },
-    { id: 'gallery', label: t('nav.gallery') },
     { id: 'contact', label: t('nav.contact') }
   ]
 

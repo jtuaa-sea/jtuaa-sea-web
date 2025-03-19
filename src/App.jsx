@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 import Home from './sections/Home'
 import About from './sections/About'
 import Events from './sections/Events'
-import Gallery from './sections/Gallery'
+import Member from './sections/Member'
 import Contact from './sections/Contact'
 
 function App() {
@@ -22,8 +22,8 @@ function App() {
         <Box id="events" sx={{ minHeight: { xs: 'auto', sm: '100vh' }, py: 6, mb: 4 }}>
           <Events />
         </Box>
-        <Box id="gallery" sx={{ minHeight: { xs: 'auto', sm: '100vh' }, py: 6, mb: 4 }}>
-          <Gallery />
+        <Box id="member" sx={{ minHeight: { xs: 'auto', sm: '100vh' }, py: 6, mb: 4 }}>
+          <Member />
         </Box>
         <Box id="contact" sx={{ minHeight: { xs: 'auto', sm: '100vh' }, py: 6 }}>
           <Contact />
