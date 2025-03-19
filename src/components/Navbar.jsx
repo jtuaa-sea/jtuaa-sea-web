@@ -69,7 +69,7 @@ function Navbar() {
             style={{ height: 40, objectFit: 'contain' }} 
           />
           <Typography variant="h6" sx={{ ml: 1 }}>
-            JTUAA Seattle
+            JTU&CTUAA-SEA
           </Typography>
         </Box>
 

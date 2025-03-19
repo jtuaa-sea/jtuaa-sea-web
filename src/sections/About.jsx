@@ -17,11 +17,16 @@ function About() {
         </Typography>
         
         <Typography variant="h4" gutterBottom sx={{ mt: 4 }}>
-          Our Mission
+          {t('about.mission')}
         </Typography>
         <Typography variant="body1" paragraph>
-          To foster a vibrant community of JiaoTong and ChiaoTung University alumni in the Seattle area,
-          promoting professional networking, cultural exchange, and mutual support among members.
+          <ul>
+            <li>{t('about.mission.1')}</li>
+            <li>{t('about.mission.2')}</li>
+            <li>{t('about.mission.3')}</li>
+            <li>{t('about.mission.4')}</li>
+            <li>{t('about.mission.5')}</li>
+          </ul>
         </Typography>
       </Paper>
 
@@ -29,30 +34,30 @@ function About() {
         <Grid item xs={12} md={4}>
           <Box sx={{ textAlign: 'center', p: 3 }}>
             <Typography variant="h5" gutterBottom>
-              Connect
+              {t('about.connect.title')}
             </Typography>
             <Typography variant="body1">
-              Building bridges between alumni through regular social gatherings and professional events.
+              {t('about.connect.description')}
             </Typography>
           </Box>
         </Grid>
         <Grid item xs={12} md={4}>
           <Box sx={{ textAlign: 'center', p: 3 }}>
             <Typography variant="h5" gutterBottom>
-              Support
+              {t('about.support.title')}
             </Typography>
             <Typography variant="body1">
-              Providing resources and mentorship opportunities for new alumni in the Seattle area.
+              {t('about.support.description')}
             </Typography>
           </Box>
         </Grid>
         <Grid item xs={12} md={4}>
           <Box sx={{ textAlign: 'center', p: 3 }}>
             <Typography variant="h5" gutterBottom>
-              Grow
+              {t('about.grow.title')}
             </Typography>
             <Typography variant="body1">
-              Fostering personal and professional growth through knowledge sharing and collaboration.
+              {t('about.grow.description')}
             </Typography>
           </Box>
         </Grid>
@@ -60,13 +65,10 @@ function About() {
 
       <Paper sx={{ p: 4, mt: 4 }}>
         <Typography variant="h4" gutterBottom>
-          Our History
+          {t('about.history.title')}
         </Typography>
         <Typography variant="body1" paragraph>
-          JTUAA Seattle was established as a chapter of CTUAA to serve the growing community of
-          JiaoTong and ChiaoTung University alumni in the Greater Seattle area. We organize various
-          activities throughout the year to strengthen our community bonds and support our members'
-          professional development.
+          {t('about.history')}
         </Typography>
       </Paper>
     </Container>

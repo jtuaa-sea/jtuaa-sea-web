@@ -57,11 +57,10 @@ function Contact() {
 
       <Paper sx={{ p: 4, mt: 4 }}>
         <Typography variant="h4" gutterBottom>
-          Office Location
+          {t('contact.location')}
         </Typography>
         <Typography variant="body1">
-          We are located in the Greater Seattle area. Our events are held at various locations
-          throughout the region. Please contact us for specific event locations.
+          {t('contact.location.description')}
         </Typography>
       </Paper>
     </Container>

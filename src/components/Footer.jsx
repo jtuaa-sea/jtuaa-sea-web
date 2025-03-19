@@ -29,7 +29,7 @@ function Footer() {
           </Grid>
           <Grid item xs={12} sm={4} sx={{ textAlign: { xs: 'left', sm: 'left' } }}>
             <Typography variant="h6" color="text.primary" gutterBottom>
-              JTUAA & CTU SEA
+              JTU&CTUAA-SEA
             </Typography>
             <Typography variant="body2" color="text.secondary">
               {t('about.description')}
@@ -46,7 +46,7 @@ function Footer() {
         </Grid>
         <Box mt={3}>
           <Typography variant="body2" color="text.secondary" align="center">
-            © {currentYear} JTUAA & CTU Seattle. All rights reserved.
+            © {currentYear} JTU&CTUAA-SEA. All rights reserved.
           </Typography>
         </Box>
       </Container>
