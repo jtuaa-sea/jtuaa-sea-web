@@ -37,12 +37,27 @@ function Navbar() {
     { id: 'home', label: t('nav.home') },
     { id: 'about', label: t('nav.about') },
     { id: 'events', label: t('nav.events') },
-    { id: 'contact', label: t('nav.contact') }
+    { id: 'member', label: t('nav.member') },
+    { id: 'contact', label: t('nav.contact') },
+    { id: 'donation', label: t('nav.donation') }
   ]
+
+  React.useEffect(() => {
+    const hash = window.location.hash.slice(1)
+    if (hash) {
+      const element = document.getElementById(hash)
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' })
+        }, 100)
+      }
+    }
+  }, [])
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id)
     if (element) {
+      window.location.hash = id
       element.scrollIntoView({ behavior: 'smooth' })
       handleMobileMenuClose()
     }

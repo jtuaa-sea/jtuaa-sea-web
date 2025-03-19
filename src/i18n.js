@@ -8,6 +8,8 @@ const resources = {
       'nav.about': 'About Us',
       'nav.events': 'Events',
       'nav.contact': 'Contact',
+      'nav.member': 'Board Members',
+      'nav.donate': 'Donate',
       'home.welcome': 'Welcome to JTU and CTU Alumni Association Seattle',
       'home.description': 'Connecting JiaoTong and ChiaoTung University alumni in the Seattle area',
       'about.title': 'About JTUAA Seattle',
@@ -33,7 +35,11 @@ const resources = {
       'about.support.title': 'Support',
       'about.support.description': 'Providing resources and mentorship opportunities for new alumni in the Seattle area.',
       'about.grow.title': 'Grow',
-      'about.grow.description': 'Fostering personal and professional growth through knowledge sharing and collaboration.'
+      'about.grow.description': 'Fostering personal and professional growth through knowledge sharing and collaboration.',
+      'contact.support.title': 'Support Us',
+      'contact.support.description': 'We accept donations through corporate matching programs from companies like Google, Microsoft, and other tech companies. You can find us in the Donation Portal by searching for:',
+      'contact.support.organization': 'JiaoTong & ChiaoTung University Alumni Association of Seattle',
+      'contact.support.thanks': 'Thank you for your support!'
     }
   },
   zh: {
@@ -42,6 +48,8 @@ const resources = {
       'nav.about': '关于我们',
       'nav.events': '活动',
       'nav.contact': '联系我们',
+      'nav.member': '理事会',
+      'nav.donate': '捐赠',
       'home.welcome': '欢迎来到西雅图交通大学校友会',
       'home.description': '连接西雅图地区交通大学校友',
       'about.title': '关于西雅图交通大学校友会',
@@ -67,7 +75,11 @@ const resources = {
       'about.support.title': '支持',
       'about.support.description': '为西雅图地区的新校友提供资源和指导机会。',
       'about.grow.title': '成长',
-      'about.grow.description': '通过知识共享和协作促进个人和职业发展。'
+      'about.grow.description': '通过知识共享和协作促进个人和职业发展。',
+      'contact.support.title': '支持我们',
+      'contact.support.description': '我们接受谷歌，微软等科技公司的捐赠matching program。可在Donation Portal里搜索以下Cause找到我们：',
+      'contact.support.organization': 'JiaoTong & ChiaoTung University Alumni Association of Seattle',
+      'contact.support.thanks': '感谢交大校友以及各界朋友对我们的支持！'
     }
   }
 }

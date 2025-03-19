@@ -61,21 +61,6 @@ function Home() {
         <Grid container spacing={4}>
           <Grid item xs={12} md={4}>
             <Typography variant="h4" gutterBottom>
-              {t('events.upcoming')}
-            </Typography>
-            <Typography variant="body1" paragraph>
-              Stay tuned for our exciting upcoming events and activities.
-            </Typography>
-            <Button
-              onClick={() => document.getElementById('events').scrollIntoView({ behavior: 'smooth' })}
-              variant="outlined"
-              color="primary"
-            >
-              {t('nav.events')}
-            </Button>
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Typography variant="h4" gutterBottom>
               {t('about.title')}
             </Typography>
             <Typography variant="body1" paragraph>
@@ -87,6 +72,21 @@ function Home() {
               color="primary"
             >
               {t('nav.about')}
+            </Button>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Typography variant="h4" gutterBottom>
+              {t('events.upcoming')}
+            </Typography>
+            <Typography variant="body1" paragraph>
+              Stay tuned for our exciting upcoming events and activities.
+            </Typography>
+            <Button
+              onClick={() => document.getElementById('events').scrollIntoView({ behavior: 'smooth' })}
+              variant="outlined"
+              color="primary"
+            >
+              {t('nav.events')}
             </Button>
           </Grid>
           <Grid item xs={12} md={4}>

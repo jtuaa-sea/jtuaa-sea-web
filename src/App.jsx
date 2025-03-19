@@ -7,6 +7,7 @@ import About from './sections/About'
 import Events from './sections/Events'
 import Member from './sections/Member'
 import Contact from './sections/Contact'
+import Donation from './sections/Donation'
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         </Box>
         <Box id="member" sx={{ minHeight: { xs: 'auto', sm: '100vh' }, py: 6, mb: 4 }}>
           <Member />
+        </Box>
+        <Box id="donation" sx={{ minHeight: { xs: 'auto', sm: '100vh' }, py: 6 }}>
+          <Donation />
         </Box>
         <Box id="contact" sx={{ minHeight: { xs: 'auto', sm: '100vh' }, py: 6 }}>
           <Contact />
