@@ -76,7 +76,7 @@ const boardMembers = [
     name: 'Sophie Ying',
     nameZh: '应倩',
     role: 'Board Member',
-    roleZh: 'Board Member',
+    roleZh: '理事',
     // bio: 'Class of 2011, Software Engineering',
     // bioZh: '2011级软件工程',
     // image: 'https://via.placeholder.com/300x400'
@@ -123,7 +123,7 @@ const boardMembers = [
   },
   {
     id: 12,
-    name: '李陶然',
+    name: 'Taoran Li',
     nameZh: '李陶然',
     role: 'Board Member',
     roleZh: '理事',
