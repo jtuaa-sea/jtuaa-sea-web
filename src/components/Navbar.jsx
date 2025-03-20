@@ -36,10 +36,11 @@ function Navbar() {
   const navItems = [
     { id: 'home', label: t('nav.home') },
     { id: 'about', label: t('nav.about') },
-    { id: 'events', label: t('nav.events') },
     { id: 'member', label: t('nav.member') },
+    { id: 'events', label: t('nav.events') },
+    { id: 'donation', label: t('nav.donate') },
     { id: 'contact', label: t('nav.contact') },
-    { id: 'donation', label: t('nav.donation') }
+    
   ]
 
   React.useEffect(() => {
