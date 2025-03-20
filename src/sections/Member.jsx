@@ -13,7 +13,7 @@ import {
 const boardMembers = [
   {
     id: 1,
-    name: '程潜',
+    name: 'Qian Cheng',
     nameZh: '程潜',
     role: 'President',
     roleZh: '会长',
@@ -23,7 +23,7 @@ const boardMembers = [
   },
   {
     id: 2,
-    name: '谢晋',
+    name: 'Jin Xie',
     nameZh: '谢晋',
     role: 'Vice President',
     roleZh: '副会长',
@@ -33,7 +33,7 @@ const boardMembers = [
   },
   {
     id: 3,
-    name: '张哲慧',
+    name: 'Zhehui Zahng',
     nameZh: '张哲慧',
     role: 'Secretary',
     roleZh: '秘书长',
@@ -43,8 +43,8 @@ const boardMembers = [
   },
   {
     id: 4,
-    name: '郑亚娟 Wendy',
-    nameZh: '郑亚娟 Wendy',
+    name: 'Wendy Zheng',
+    nameZh: '郑亚娟',
     role: 'Treasurer',
     roleZh: '财长',
     // bio: 'Class of 2014, Finance',
@@ -53,7 +53,7 @@ const boardMembers = [
   },
   {
     id: 5,
-    name: '朱允文',
+    name: 'Yunwen Zhu',
     nameZh: '朱允文',
     role: 'Media Director',
     roleZh: '媒体总监',
@@ -63,7 +63,7 @@ const boardMembers = [
   },
   {
     id: 6,
-    name: '胡瑶',
+    name: 'Yao Hu',
     nameZh: '胡瑶',
     role: 'PR Director',
     roleZh: '外联总监',
@@ -73,7 +73,7 @@ const boardMembers = [
   },
   {
     id: 7,
-    name: '应倩',
+    name: 'Sophie Ying',
     nameZh: '应倩',
     role: 'Board Member',
     roleZh: 'Board Member',
@@ -83,40 +83,40 @@ const boardMembers = [
   },
   {
     id: 8,
-    name: '李明',
+    name: 'Ming Li',
     nameZh: '李明',
     role: 'Board Member',
-    roleZh: 'Board Member',
+    roleZh: '理事',
     // bio: 'Class of 2011, Software Engineering',
     // bioZh: '2011级软件工程',
     // image: 'https://via.placeholder.com/300x400'
   },
   {
     id: 9,
-    name: '程健',
+    name: 'Jian Cheng',
     nameZh: '程健',
     role: 'Board Member',
-    roleZh: 'Board Member',
+    roleZh: '理事',
     // bio: 'Class of 2011, Software Engineering',
     // bioZh: '2011级软件工程',
     // image: 'https://via.placeholder.com/300x400'
   },
   {
     id: 10,
-    name: '李俊霖',
+    name: 'Junlin Li',
     nameZh: '李俊霖',
     role: 'Board Member',
-    roleZh: 'Board Member',
+    roleZh: '理事',
     // bio: 'Class of 2011, Software Engineering',
     // bioZh: '2011级软件工程',
     // image: 'https://via.placeholder.com/300x400'
   },
   {
     id: 11,
-    name: '赵景浩',
-    nameZh: '赵景浩',
+    name: 'Jinghao Zhao',
+    nameZh: '赵璟浩',
     role: 'Board Member',
-    roleZh: 'Board Member',
+    roleZh: '理事',
     // bio: 'Class of 2011, Software Engineering',
     // bioZh: '2011级软件工程',
     // image: 'https://via.placeholder.com/300x400'
@@ -126,7 +126,7 @@ const boardMembers = [
     name: '李陶然',
     nameZh: '李陶然',
     role: 'Board Member',
-    roleZh: 'Board Member',
+    roleZh: '理事',
     // bio: 'Class of 2011, Software Engineering',
     // bioZh: '2011级软件工程',
     // image: 'https://via.placeholder.com/300x400'
