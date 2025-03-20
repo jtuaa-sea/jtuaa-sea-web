@@ -33,7 +33,7 @@ const boardMembers = [
   },
   {
     id: 3,
-    name: 'Zhehui Zahng',
+    name: 'Zhehui Zhang',
     nameZh: '张哲慧',
     role: 'Secretary',
     roleZh: '秘书长',
