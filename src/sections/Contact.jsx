@@ -9,6 +9,12 @@ import CloseIcon from '@mui/icons-material/Close'
 function Contact() {
   const { t } = useTranslation()
   const [openQRCode, setOpenQRCode] = useState(false)
+  const [qrCodeType, setQrCodeType] = useState('') // 添加这一行
+
+  const handleQRCodeOpen = (type) => {
+    setQrCodeType(type)
+    setOpenQRCode(true)
+  }
 
   return (
     <Container maxWidth="lg">
@@ -44,7 +50,7 @@ function Contact() {
                 <QrCodeIcon sx={{ mr: 2 }} />
                 <Link
                   component="button"
-                  onClick={() => setOpenQRCode(true)}
+                  onClick={() => handleQRCodeOpen('wechat')}
                   underline="hover"
                   sx={{ textAlign: 'left' }}
                 >
@@ -52,8 +58,13 @@ function Contact() {
                 </Link>
               </Box>
               <Box sx={{ display: 'flex', alignItems: 'center' }}>
-              <FavoriteIcon sx={{ mr: 2 }} />
-                <Link href="#" underline="hover">
+                <FavoriteIcon sx={{ mr: 2 }} />
+                <Link
+                  component="button"
+                  onClick={() => handleQRCodeOpen('xhs')}
+                  underline="hover"
+                  sx={{ textAlign: 'left' }}
+                >
                   JTUAA Seattle 小红书
                 </Link>
               </Box>
@@ -87,8 +98,8 @@ function Contact() {
           </IconButton>
           <Box
             component="img"
-            src="/wechat_qr.png"
-            alt="WeChat QR Code"
+            src={qrCodeType === 'wechat' ? '/wechat_qr.png' : '/xhs_qr.jpg'}
+            alt={qrCodeType === 'wechat' ? 'WeChat QR Code' : 'RedNote QR Code'}
             sx={{ width: '100%', height: 'auto', display: 'block', mt: 2 }}
           />
         </DialogContent>
