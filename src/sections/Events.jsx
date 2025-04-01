@@ -50,7 +50,7 @@ function Events() {
     {
       id: -1,
       title: '【茶映人生•一年之计在于春】大西雅图地区交大人一起品茶',
-      date: 'Nov 10, 2024',
+      date: 'April 28, 2024',
       location: 'Bellevue, WA',
       description: '由交大校友会西雅图分会与TEA EDUCATION ASSOCIATION联合举办的系列沙龙活动“茶映人生”第一次主题活动“一年之计在于春',
       eventLink: 'https://mp.weixin.qq.com/s/IADL0CWz9xYYJTbLXyK4nw',
