@@ -64,7 +64,7 @@ function Home() {
               {t('about.title')}
             </Typography>
             <Typography variant="body1" paragraph>
-              {t('about.description')}
+              {t('home.description')}
             </Typography>
             <Button
               onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })}
@@ -79,7 +79,7 @@ function Home() {
               {t('events.upcoming')}
             </Typography>
             <Typography variant="body1" paragraph>
-              Stay tuned for our exciting upcoming events and activities.
+              {t('home.events')}
             </Typography>
             <Button
               onClick={() => document.getElementById('events').scrollIntoView({ behavior: 'smooth' })}
@@ -94,7 +94,7 @@ function Home() {
               {t('contact.reach')}
             </Typography>
             <Typography variant="body1" paragraph>
-              Connect with us and stay updated with our latest news and events.
+              {t('home.connect')}
             </Typography>
             <Button
               onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}

@@ -79,7 +79,7 @@ function Navbar() {
         >
           {/* Update the logo path to ensure it's correctly resolved */}
           <img 
-            src={import.meta.env.BASE_URL + "logo.JPG"} 
+            src={import.meta.env.BASE_URL + "logo.png"} 
             alt="JTUAA Seattle Logo" 
             style={{ height: 40, objectFit: 'contain' }} 
           />

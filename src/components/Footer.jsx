@@ -21,9 +21,9 @@ function Footer() {
           <Grid item xs={12} sm={4} sx={{ textAlign: 'left' }}>
             <Box sx={{ display: 'flex', justifyContent: 'left', mb: 2 }}>
               <img 
-                src={import.meta.env.BASE_URL + "logo.JPG"} 
-                alt="JTUAA Seattle Logo" 
-                style={{ height: 150, objectFit: 'contain' }} 
+                src={import.meta.env.BASE_URL + "five_jtu_logo.png"} 
+                alt="Five JTU Logo" 
+                style={{ width: '100%', objectFit: 'contain' }} 
               />
             </Box>
           </Grid>
