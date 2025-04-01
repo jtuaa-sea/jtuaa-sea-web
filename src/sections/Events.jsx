@@ -7,7 +7,7 @@ function Events() {
 
   const upcomingEvents = [
     {
-      id: 3,
+      id: 4,
       title: '【重磅嘉宾揭晓】交通大学美洲校友峰会火热报名中!',
       date: 'May 24-25, 2025',
       location: 'Santa Clara Convention Center, Santa Clara, CA 95054',
@@ -37,6 +37,24 @@ function Events() {
       description: '白色情人节联谊活动—交大西雅图校友会',
       eventLink: 'https://mp.weixin.qq.com/s/8moN3QwHXtQwWVfhAj8DaQ',
       backgroundImg: '/event_1.png'
+    },
+    {
+      id: 0,
+      title: '交通大学西雅图地区秋日校友聚',
+      date: 'Nov 10, 2024',
+      location: 'Bellevue, WA',
+      description: '每年的校友会保留活动：交通大学西雅图地区秋日校友聚会',
+      eventLink: 'https://mp.weixin.qq.com/s/AUEj9_wIDaLc3tcIPG1G5Q',
+      backgroundImg: '/event_0.png'
+    },
+    {
+      id: -1,
+      title: '【茶映人生•一年之计在于春】大西雅图地区交大人一起品茶',
+      date: 'Nov 10, 2024',
+      location: 'Bellevue, WA',
+      description: '由交大校友会西雅图分会与TEA EDUCATION ASSOCIATION联合举办的系列沙龙活动“茶映人生”第一次主题活动“一年之计在于春',
+      eventLink: 'https://mp.weixin.qq.com/s/IADL0CWz9xYYJTbLXyK4nw',
+      backgroundImg: '/event__1.png'
     }
   ]
 
