@@ -25,7 +25,7 @@ function Events() {
       title: '白色情人节邂逅之约',
       date: 'March 22, 2025',
       location: 'Bellevue, WA',
-      description: '白色情人节邂逅之约—交大西雅图校友会活动回顾',
+      description: '白色情人节邂逅之约—交大西雅图校友会活动回顾。',
       eventLink: 'https://mp.weixin.qq.com/s/-E8CF1X9hfrfNlFNr77qyg',
       backgroundImg: '/event_2.png'
     },
@@ -34,7 +34,7 @@ function Events() {
       title: '白色情人节联谊活动—交大西雅图校友会',
       date: 'February 28, 2025',
       location: 'Bellevue, WA',
-      description: '白色情人节联谊活动—交大西雅图校友会',
+      description: '白色情人节联谊活动—交大西雅图校友会。',
       eventLink: 'https://mp.weixin.qq.com/s/8moN3QwHXtQwWVfhAj8DaQ',
       backgroundImg: '/event_1.png'
     },
@@ -43,7 +43,7 @@ function Events() {
       title: '交通大学西雅图地区秋日校友聚',
       date: 'Nov 10, 2024',
       location: 'Bellevue, WA',
-      description: '每年的校友会保留活动：交通大学西雅图地区秋日校友聚会',
+      description: '每年的校友会保留活动：交通大学西雅图地区秋日校友聚会。',
       eventLink: 'https://mp.weixin.qq.com/s/AUEj9_wIDaLc3tcIPG1G5Q',
       backgroundImg: '/event_0.png'
     },
@@ -52,7 +52,7 @@ function Events() {
       title: '【茶映人生•一年之计在于春】大西雅图地区交大人一起品茶',
       date: 'April 28, 2024',
       location: 'Bellevue, WA',
-      description: '由交大校友会西雅图分会与TEA EDUCATION ASSOCIATION联合举办的系列沙龙活动“茶映人生”第一次主题活动“一年之计在于春',
+      description: '由交大校友会西雅图分会与TEA EDUCATION ASSOCIATION联合举办的系列沙龙活动“茶映人生”第一次主题活动。',
       eventLink: 'https://mp.weixin.qq.com/s/IADL0CWz9xYYJTbLXyK4nw',
       backgroundImg: '/event__1.png'
     }
