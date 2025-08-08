@@ -8,18 +8,27 @@ function Events() {
   const upcomingEvents = [
     {
       id: 4,
-      title: '【重磅嘉宾揭晓】交通大学美洲校友峰会火热报名中!',
-      date: 'May 24-25, 2025',
-      location: 'Santa Clara Convention Center, Santa Clara, CA 95054',
-      description: '2025年5月24-25日，第十三届交通大学美洲校友联谊峰会将在科技创新之地加州硅谷盛大举行。',
-      registerable: true,
-      registerLink: 'https://ctuaaa.ticketbud.com/2025',
-      eventLink: 'https://mp.weixin.qq.com/s/FXaaTADfEGAX8x3qU_bqhw',
-      backgroundImg: '/event_3.jpeg'
+      title: '【TBD】夏日烧烤',
+      date: 'Sep, 2025',
+      location: 'Bellevue, WA',
+      description: '一年一度校友烧烤聚会',
+      registerable: false,
+      registerLink: '',
+      eventLink: '',
+      backgroundImg: ''
     }
   ]
 
   const pastEvents = [
+    {
+      id: 3,
+      title: '【重磅嘉宾揭晓】交通大学美洲校友峰会火热报名中!',
+      date: 'May 24-25, 2025',
+      location: 'Santa Clara Convention Center, Santa Clara, CA 95054',
+      description: '2025年5月24-25日，第十三届交通大学美洲校友联谊峰会将在科技创新之地加州硅谷盛大举行。',
+      eventLink: 'https://mp.weixin.qq.com/s/FXaaTADfEGAX8x3qU_bqhw',
+      backgroundImg: '/event_3.jpeg'
+    },
     {
       id: 2,
       title: '白色情人节邂逅之约',
